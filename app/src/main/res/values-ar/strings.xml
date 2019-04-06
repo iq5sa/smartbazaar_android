@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">سمارت بازار</string>
+    <string name="myOrders">طلباتي</string>
+    <string name="departments">الاقسام</string>
+    <string name="favorite">المفضلة</string>
+    <string name="contactUs">اتصل بنا</string>
+    <string name="helpCenter">مركز المساعدة</string>
+    <string name="PrivacyPolicy">سياسة الخصوصية</string>
+    <string name="hello">مرحباً</string>
+    <string name="home">الرئيسية</string>
+    <string name="cart">السلة</string>
+    <string name="myAccount">حسابي</string>
+    <string name="shopByCategory">تسوق حسب الفئة</string>
+    <string name="seeMore">عرض الكل</string>
+    <string name="bestForThisWeek">افضل المختارات لهذا السبوع</string>
+    <string name="newerDiscounts">احدث الخصومات</string>
+    <string name="shopByBrand">تسوق حسب الماركة</string>
+    <string name="search">البحث</string>
+    <string name="sellerTitle">البائع : </string>
+    <string name="category_name">القسم : </string>
+    <string name="buy_now">شراء الان</string>
+    <string name="qtnTitle">الكمية : </string>
+    <string name="total_price">المبلغ الكلي : </string>
+    <string name="complete_buying">متابعة عملية الشراء</string>
+    <string name="total_priceInCart">المجموع الجزئي : </string>
+    <string name="login">تسجيل الدخول</string>
+    <string name="register">تسجيل حساب جديد</string>
+    <string name="addToCart">اضف الى السلة</string>
+
+    <string name="settings">الاعدادات</string>
+
+
+    <string-array name="filter">
+        <item>احدث المنتجات</item>
+        <item>المنتجات الاكثر شيوعاً</item>
+        <item>المنتجات الاعلى تقييم</item>
+        <item>المنتجات الاعلى سعر</item>
+        <item>المنتجات الاقل سعر</item>
+        <item>المنتجات الاكثر مبيعاً</item>
+    </string-array>
+
+
+    <string name="profileTxt">الملف التعريفي</string>
+    <string name="shippingAddressTxt">عنوان الشحن</string>
+    <string name="currencyTxt">العملة</string>
+    <string name="languageTxt">اللغة</string>
+    <string name="notificationTxt">الاشعارات</string>
+    <string name="rateSmartbazaar">قيم تطبيق سمارت بازار</string>
+
+
+    <string-array name="langsArray">
+        <item>العربية</item>
+        <item>English</item>
+    </string-array>
+    <string name="selectLangTxt">اختر اللغة :</string>
+    <string name="cancel">الغاء</string>
+    <string name="save">حفظ</string>
+    <string name="newerProducts">أحدث المنتجات</string>
+    <string name="mostVisited">منتجات اكثر زيارة</string>
+    <string name="productsForYou">منتجات رشحناها لك</string>
+    <string name="contactUsOn">تواصل معنا عبر</string>
+    <string name="instegram">انستغرام</string>
+    <string name="facebook">فيس بوك</string>
+    <string name="youtube">يوتيوب</string>
+    <string name="registerOrLoginTxt">تسجيل الدخول - تسجيل </string>
+    <string name="phoneNumberTxt">رقم الهاتف</string>
+    <string name="passwordTxt">كلمة المرور</string>
+    <string name="forgetPasswordTxt">هل نسيت كلمة المرور</string>
+    <string name="registerPageTitle">تسجيل حساب جديد لدى سمارت بازار</string>
+    <string name="fullNameTxt">الاسم الكامل</string>
+    <string name="emailHintTxt">البريد الالكتروني - اختياري</string>
+    <string name="confirmPasswordHint">تأكيد كلمة المرور</string>
+    <string name="termsPart1">بمجرد التسجيل اوافق على</string>
+    <string name="termsPart2">الشروط والاحكام</string>
+    <string name="create">انشاء</string>
+
+</resources>

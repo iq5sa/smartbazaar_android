@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/logo"
+        android:layout_marginTop="20dp"
+        android:layout_alignParentTop="true"
+        android:id="@+id/main_logo"/>
+
+    <com.github.ybq.android.spinkit.SpinKitView
+        android:id="@+id/spin_kit"
+        style="@style/SpinKitView.FadingCircle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        app:SpinKit_Color="@color/colorAccent"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/main_logo"
+        android:visibility="invisible"
+        android:layout_marginTop="10dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:paddingRight="30dp"
+        android:paddingLeft="30dp"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="61dp"
+            android:inputType="number"
+            android:background="@drawable/border_corner5"
+            android:hint="@string/phoneNumberTxt"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:paddingStart="10dp"
+            android:id="@+id/mobile"
+            android:gravity="start|center"
+
+
+
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="61dp"
+            android:inputType="textPassword"
+            android:background="@drawable/border_corner5"
+            android:hint="@string/passwordTxt"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:paddingStart="10dp"
+            android:layout_marginTop="10dp"
+            android:textAlignment="viewStart"
+            android:id="@+id/password"
+
+
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="@color/design_default_color_primary"
+            android:text="@string/forgetPasswordTxt"
+            android:padding="5dp"
+            android:fontFamily="@font/droidkufi_regular"
+            android:id="@+id/forget_password"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="53dp"
+            android:background="@drawable/btn_login_shape"
+            android:text="@string/login"
+            android:fontFamily="@font/droidkufi_regular"
+            android:textColor="@android:color/white"
+            android:id="@+id/login"
+            android:layout_marginTop="10dp"
+            android:onClick="Login"/>
+
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>

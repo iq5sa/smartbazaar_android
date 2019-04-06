@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single"
+        android:id="@+id/menu">
+
+        <item
+            android:id="@+id/myorders"
+            android:title="@string/myOrders"
+            android:icon="@drawable/truck_shipping"
+
+            />
+
+
+
+
+        <item android:id="@+id/favorite"
+            android:title="@string/favorite"
+            android:icon="@drawable/ic_heart"/>
+
+
+        <item android:id="@+id/contactUs"
+            android:title="@string/contactUs"
+            android:icon="@drawable/ic_email"/>
+
+        <item android:id="@+id/helpCenter"
+            android:title="@string/helpCenter"
+            android:icon="@drawable/ic_help_box"/>
+
+
+        <item android:id="@+id/PrivacyPolicy"
+            android:title="@string/PrivacyPolicy"
+            android:icon="@drawable/content_paste"/>
+
+        <item android:id="@+id/settings"
+            android:title="@string/settings"
+            android:icon="@drawable/ic_settings"/>
+    </group>
+
+
+    <item android:title="@string/contactUsOn">
+        <menu>
+            <group android:checkableBehavior="single"
+                android:id="@+id/social"
+                >
+
+
+                <item android:id="@+id/insta"
+                    android:title="@string/instegram"
+                    android:icon="@drawable/ic_instagram"
+                    android:iconTint="@color/colorPrimary"/>
+
+                <item android:id="@+id/face"
+                    android:title="@string/facebook"
+                    android:icon="@drawable/ic_facebook_box"
+                    android:iconTint="@color/colorPrimary"/>
+
+
+                <item android:id="@+id/tube"
+                    android:title="@string/youtube"
+                    android:icon="@drawable/ic_youtube"
+                    android:iconTint="@color/colorPrimary"/>
+
+
+            </group>
+        </menu>
+    </item>
+
+</menu>

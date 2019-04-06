@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "802013910588",
+    "firebase_url": "https://smartbazaar-282a7.firebaseio.com",
+    "project_id": "smartbazaar-282a7",
+    "storage_bucket": "smartbazaar-282a7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:802013910588:android:aab9500eada05954",
+        "android_client_info": {
+          "package_name": "shop.smartbazaar.co"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "802013910588-9k47l7kbuilbu1cenud4mupm69aol21l.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "shop.smartbazaar.co",
+            "certificate_hash": "e29ae7a6440836f124587d1e0f0e24f9c116b189"
+          }
+        },
+        {
+          "client_id": "802013910588-30s8e326jcm17gau2afp9ored6kcvin4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD4Di1U44DenDP_THNszvYVY6sUcOebkSY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "802013910588-30s8e326jcm17gau2afp9ored6kcvin4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

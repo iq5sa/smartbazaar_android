@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:id="@+id/parent">
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="@color/bgApp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@android:color/white"
+                android:layout_margin="10dp"
+                android:padding="5dp">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="المنطقة"
+                    android:padding="5dp"
+                    android:fontFamily="@font/droidkufi_regular"
+                    android:textColor="@android:color/black"
+                    android:textSize="12sp"
+                    />
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp">
+                    <Spinner
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/border_corner5"
+                        android:id="@+id/sp_area"/>
+
+
+                </RelativeLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@android:color/white"
+                android:layout_margin="10dp"
+                android:padding="5dp">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="عنوان الشحن"
+                    android:padding="5dp"
+                    android:fontFamily="@font/droidkufi_regular"
+                    android:textColor="@android:color/black"
+                    android:textSize="12sp"
+                    android:paddingRight="5dp"
+
+                    />
+
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@drawable/border_corner5"
+                    android:hint="اكتب العنوان الخاص بك"
+                    android:paddingRight="5dp"
+                    android:fontFamily="@font/droidkufi_regular"
+                    android:textSize="14sp"
+                    android:id="@+id/edt_address"
+
+                    />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@android:color/white"
+                android:layout_margin="10dp"
+                android:padding="5dp">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="نوع الشحن"
+                    android:padding="5dp"
+                    android:fontFamily="@font/droidkufi_regular"
+                    android:textColor="@android:color/black"
+                    android:textSize="12sp"
+                    />
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp">
+                    <Spinner
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:id="@+id/shipping_type"
+                        android:background="@drawable/border_corner5"
+                        />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="شحن عادي خلال 3 ايام"
+                        android:paddingRight="10dp"
+                        android:fontFamily="@font/droidkufi_regular"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="12sp"
+                        android:id="@+id/tv_normal_ship"
+                        android:visibility="invisible"
+
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="شحن اكسبريس خلال يوم واحد"
+                        android:fontFamily="@font/droidkufi_regular"
+                        android:paddingRight="10dp"
+                        android:paddingBottom="10dp"
+                        android:textColor="@color/colorAccent"
+                        android:textSize="12sp"
+                        android:id="@+id/tv_express_ship"
+                        android:visibility="invisible"
+                        />
+                </RelativeLayout>
+            </LinearLayout>
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/custom_button"
+        android:layout_margin="10dp"
+        android:text="@string/complete_buying"
+        android:fontFamily="@font/droidkufi_regular"
+        android:textColor="@android:color/white"
+        android:id="@+id/btn_makeOrder"
+        android:layout_alignParentBottom="true"
+        />
+</RelativeLayout>

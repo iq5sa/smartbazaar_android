@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/noItemsItems_area"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:visibility="invisible">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/smartbazaar_cart"
+            android:tint="@color/cgray"
+            android:alpha="0.5"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="لا توجد منتجات في السلة"
+            android:gravity="center"
+            android:fontFamily="@font/droidkufi_regular"
+           />
+
+
+
+    </LinearLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingRight="10dp"
+        android:paddingBottom="80dp"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        android:scrollbars="none">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/cart_parent"
+            android:orientation="vertical"/>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#eee"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical"
+        android:id="@+id/process_area">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+            <TextView
+                android:id="@+id/textView34"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/total_priceInCart"
+                android:textColor="@android:color/black"
+                android:fontFamily="@font/droidkufi_regular"/>
+
+            <TextView
+                android:id="@+id/totalPriceIncart"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="123 $"
+                android:textStyle="bold"
+                android:textColor="@android:color/holo_blue_dark"
+
+                />
+        </LinearLayout>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/custom_button"
+            android:layout_margin="10dp"
+            android:text="@string/complete_buying"
+            android:fontFamily="@font/droidkufi_regular"
+            android:textColor="@android:color/white"
+            android:id="@+id/btn_makeOrder"
+            />
+    </LinearLayout>
+</RelativeLayout>

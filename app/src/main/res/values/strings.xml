@@ -1,0 +1,74 @@
+<resources>
+    <string name="app_name">smartbazaar</string>
+    <string name="myOrders">My orders</string>
+    <string name="departments">departments</string>
+    <string name="favorite">Favorite</string>
+    <string name="contactUs">Contact us</string>
+    <string name="helpCenter">Help center</string>
+    <string name="PrivacyPolicy">Privacy policy</string>
+    <string name="hello">Hello</string>
+    <string name="home">Home</string>
+    <string name="cart">Cart</string>
+    <string name="myAccount">Account</string>
+    <string name="shopByCategory">Shop by category</string>
+    <string name="seeMore">Show all</string>
+    <string name="bestForThisWeek">Best for this week</string>
+    <string name="newerDiscounts">Newer discounts</string>
+    <string name="shopByBrand">Shop by brand</string>
+    <string name="search">Search</string>
+    <string name="sellerTitle">Seller : </string>
+    <string name="category_name">Sategory name : </string>
+    <string name="buy_now">Buy now</string>
+    <string name="qtnTitle">qtn title</string>
+    <string name="total_price">Total price : </string>
+    <string name="complete_buying">Complete buying prosses</string>
+    <string name="total_priceInCart">Total price : </string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="addToCart">Add to cart</string>
+    <string name="settings">Settings</string>
+
+
+    <string-array name="filter">
+        <item>احدث المنتجات</item>
+        <item>المنتجات الاكثر شيوعاً</item>
+        <item>المنتجات الاعلى تقييم</item>
+        <item>المنتجات الاعلى سعر</item>
+        <item>المنتجات الاقل سعر</item>
+        <item>المنتجات الاكثر مبيعاً</item>
+    </string-array>
+
+    <string name="profileTxt">Profile</string>
+    <string name="shippingAddressTxt">Shipping address</string>
+    <string name="currencyTxt">Currency</string>
+    <string name="languageTxt">Language</string>
+    <string name="notificationTxt">Notification</string>
+    <string name="rateSmartbazaar">Rate smartbazaar app</string>
+
+    <string-array name="langsArray">
+        <item>العربية</item>
+        <item>English</item>
+    </string-array>
+    <string name="selectLangTxt">Select language :</string>
+
+    <string name="cancel">cancel</string>
+    <string name="save">save</string>
+    <string name="newerProducts">Newer products</string>
+    <string name="mostVisited">Most visited</string>
+    <string name="productsForYou">Products for you</string>
+    <string name="contactUsOn">Contact us on</string>
+    <string name="instegram">instegram</string>
+    <string name="facebook">facebook</string>
+    <string name="youtube">youtube</string>
+    <string name="registerOrLoginTxt">Register - Login</string>
+    <string name="phoneNumberTxt">Phone number</string>
+    <string name="passwordTxt">Password</string>
+    <string name="forgetPasswordTxt">Forgot password</string>
+    <string name="registerPageTitle">Create account on Smart Bazaar</string>
+    <string name="fullNameTxt">Full name</string>
+    <string name="emailHintTxt">Email optional</string>
+    <string name="confirmPasswordHint">Confirm password</string>
+    <string name="termsPart1">Once you register I agree to the </string>
+    <string name="termsPart2">terms and conditions</string>
+    <string name="create">Create</string>
+</resources>
